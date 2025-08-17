@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cuestionario: América Latina (sin Brasil)</title>
+    <link rel="stylesheet" href="assets/quiz.css">
+</head>
+<body>
+<div class="quiz-container">
+    <div class="quiz-header">
+        <h1>🌎 Cuestionario: América Latina (sin Brasil)</h1>
+        <p>¡Chequea tu conocimiento!</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+    </div>
+    <div class="quiz-content">
+        <div id="quiz">
+
+        </div>
+        <div class="result">
+            <h2>¡Cuestionario terminado!</h2>
+            <p>Tu puntuación:</p>
+            <div class="score">
+                <span id="score">0</span>/20
+            </div>
+            <button class="restart-btn" onclick="restartQuiz()">Volver a intentar</button>
+        </div>
+    </div>
+</div>
+<script>
+    const questions = [
+        {
+            question: "¿Cuál es la capital de Argentina?",
+            options: ["Montevideo", "Santiago", "Buenos Aires", "Asunción"],
+            answer: 2
+        },
+        {
+            question: "¿En qué país se encuentran las ruinas de Machu Picchu?",
+            options: ["Ecuador", "Perú", "Colombia", "Bolivia"],
+            answer: 1
+        },
+        {
+            question: "¿Qué país latinoamericano es conocido como 'la patria del Sol'? (sin Brasil)",
+            options: ["Chile", "Argentina", "Uruguay", "Paraguay"],
+            answer: 3
+        },
+        {
+            question: "¿Cuál es la moneda oficial de México?",
+            options: ["Dólar", "Peso mexicano", "Real", "Quetzal"],
+            answer: 1
+        },
+        {
+            question: "¿Qué cordillera atraviesa gran parte de América del Sur?",
+            options: ["Sierra Nevada", "Cordillera de los Andes", "Montañas Rocosas", "Cordillera Central"],
+            answer: 1
+        },
+        {
+            question: "¿En qué país se habla principalmente el idioma quechua?",
+            options: ["Perú", "Venezuela", "Panamá", "Honduras"],
+            answer: 0
+        },
+        {
+            question: "¿Cuál es la capital de Colombia?",
+            options: ["Medellín", "Cali", "Bogotá", "Cartagena"],
+            answer: 2
+        },
+        {
+            question: "¿Qué país latinoamericano tiene la mayor cantidad de volcanes activos?",
+            options: ["Chile", "Argentina", "Ecuador", "Guatemala"],
+            answer: 0
+        },
+        {
+            question: "¿Qué país es famoso por el Canal de Panamá?",
+            options: ["Costa Rica", "Colombia", "Panamá", "Nicaragua"],
+            answer: 2
+        },
+        {
+            question: "¿Cuál es la isla más grande del Caribe?",
+            options: ["Puerto Rico", "Jamaica", "Cuba", "La Española"],
+            answer: 2
+        },
+        {
+            question: "¿En qué país se encuentra el lago Titicaca?",
+            options: ["Bolivia y Perú", "Chile y Argentina", "Colombia y Venezuela", "Ecuador y Perú"],
+            answer: 0
+        },
+        {
+            question: "¿Qué país es conocido por la producción de vino Malbec?",
+            options: ["Chile", "Uruguay", "Argentina", "Paraguay"],
+            answer: 2
+        },
+        {
+            question: "¿Cuál es la capital de Uruguay?",
+            options: ["Montevideo", "Punta del Este", "Salto", "Colonia"],
+            answer: 0
+        },
+        {
+            question: "¿Qué país latinoamericano fue sede del Mundial de Fútbol 1978?",
+            options: ["México", "Argentina", "Colombia", "Chile"],
+            answer: 1
+        },
+        {
+            question: "¿En qué país se encuentra la península de Yucatán?",
+            options: ["Guatemala", "Belice", "México", "Honduras"],
+            answer: 2
+        },
+        {
+            question: "¿Cuál es la capital de Venezuela?",
+            options: ["Maracaibo", "Caracas", "Valencia", "Barquisimeto"],
+            answer: 1
+        },
+        {
+            question: "¿Qué país es conocido por las Islas Galápagos?",
+            options: ["Perú", "Colombia", "Ecuador", "Chile"],
+            answer: 2
+        },
+        {
+            question: "¿Cuál es el desierto más árido del mundo, ubicado en Chile?",
+            options: ["Desierto de Sonora", "Desierto de Atacama", "Desierto de Mojave", "Desierto de Sechura"],
+            answer: 1
+        },
+        {
+            question: "¿En qué país se encuentra la ciudad de Medellín?",
+            options: ["Venezuela", "Colombia", "Ecuador", "Panamá"],
+            answer: 1
+        },
+        {
+            question: "¿Qué país latinoamericano fue sede de los Juegos Olímpicos 1968?",
+            options: ["Argentina", "México", "Chile", "Perú"],
+            answer: 1
+        }
+    ];
+</script>
+<script src="assets/quiz.js"></script>
+</body>
+</html>
